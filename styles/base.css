@@ -1,0 +1,96 @@
+:root {
+    /* CSS HEX */
+    --primary: #2f323aff;
+    --secondary: #7798abff;
+    --accent1: #F2F7F3;
+    --accent2: #548c59ff;
+    --accent3: #264029ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+}
+
+p, a {
+    color: var(--accent1);
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+    background-image: url(/m-a/images/background.svg);
+    text-align: center;
+}
+
+header, footer {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    border-bottom: 10px solid var(--primary);
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+header nav ul {
+    display: flex;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 10px 30px 10px 10px ;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+
+/* Main Styles */
+
+main {
+    background-color: var(--accent1);
+    min-height: 80vh;
+}
+
+main a, main p {
+    color: var(--primary);
+}
+
+main p {
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.message-date {
+    color: var(--secondary);
+}
+
+.post-message {
+    font-size: x-small;
+}
+
+
+/* Footer Styles */
+footer {
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
