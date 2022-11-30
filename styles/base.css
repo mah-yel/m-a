@@ -92,6 +92,7 @@ header nav ul li a {
 main {
     background-color: var(--accent1);
     min-height: 80vh;
+    padding-bottom: 25px;
 }
 
 main a, main p {
